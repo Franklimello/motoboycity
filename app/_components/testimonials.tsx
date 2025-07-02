@@ -54,7 +54,7 @@ export function Testimonials() {
       
       <div className="container mx-auto px-4">
 
-        <h2 className="text-4xl font-bold text-center mb-12">Depoimentos dos nossos clientes</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-white">Depoimentos dos nossos clientes</h2>
 
         <div className="relative max-w-4xl mx-auto">
 
