@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 import boy1 from "../../public/boy1.png"
 import playstore from "../../public/Google-Play-Logo-2016.jpg"
 import aplle from "../../public/apple.png"
-import { PlayStoreIcon, AppleStoreIcon } from '../_components/icons'
+
 import Image from 'next/image'
 
 
