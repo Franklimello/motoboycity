@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export function Hero() {
   return (
-    <section className="bg-zinc-800 opacity-80 text-white relative overflow-hidden">
+    <section className="bg-zinc-800  text-white relative overflow-hidden">
 
       <div>
         <Image
