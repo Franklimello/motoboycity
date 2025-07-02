@@ -16,7 +16,7 @@ const brands = [
 
 export function Footer() {
   return (
-    <section className="bg-teal-800 py-16 text-white">
+    <section className="bg-teal-800 pt-16 text-white">
       <div className='container mx-auto px-4'>
 
         <div className='border-b border-white/20 pb-8'>
@@ -93,6 +93,11 @@ export function Footer() {
         </footer>
 
       </div>
+       <footer className="bg-blue-900 text-white py-4 text-center ">
+      <p className="text-sm">
+        &copy; {new Date().getFullYear()} Desenvolvido por Franklim Joaquim de Melo Neto. Todos os direitos reservados.
+      </p>
+    </footer>
     </section>
   )
 }
