@@ -50,7 +50,8 @@ export function Testimonials() {
   }
 
   return (
-    <section className="bg-indigo-900 py-16">
+    <section className="bg-indigo-900 py-16  ">
+      
       <div className="container mx-auto px-4">
 
         <h2 className="text-4xl font-bold text-center mb-12">Depoimentos dos nossos clientes</h2>
@@ -104,6 +105,10 @@ export function Testimonials() {
         </div>
 
       </div>
+      <div className="w-full flex justify-center mt-8">
+        <div className="border-b-2 border-gray-400 w-[90%] mb-4" />
+      </div>
     </section>
+    
   )
 }
