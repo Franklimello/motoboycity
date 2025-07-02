@@ -29,7 +29,8 @@ export function Hero() {
           <div className="space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down">
-                Motoboy city
+                <p>Motoboy</p>
+                <p className='text-yellow-500'>City</p>
             </h1>
             <h2
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
@@ -47,14 +48,14 @@ export function Hero() {
               data-aos-delay="500"
               target='_blank'
               href={`https://wa.me/553398680141?text=Ola vim pelo site Motoboy city`}
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+              className="bg-yellow-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
             >
               <MessageCircle className='w-5 h-5' />
               Contato via WhatsApp
             </a>
 
             <div className="mt-8">
-              <p className="text-sm mb-4">
+              <p className="text-sm mb-4 font-bold ">
                  entrega super rápida
               </p>
 
@@ -62,14 +63,14 @@ export function Hero() {
                 <a
                         target='_blank'
                         href="https://motoboy-city.entregasexpressas.com.br/entregador/cadastro?fbclid=PAZXh0bgNhZW0CMTEAAadOIhwoWOJS1II2iQQeDrPkRiQ6aG0vjiCV8T0H4ui1ZI6FTEAkiBtDCbqzUQ_aem_hIzqPywhZdCkAS0D24pwLg"
-                        className="px-2 py-1 bg-green-600 text-white rounded-md hover:bg-green-700 transition mt-8"
+                        className="px-2 py-1 bg-green-600 font-bold  text-white rounded-md hover:bg-green-700 transition mt-8"
                     >
                         Cadastro Motoboy
                     </a>
                     <a
                         target='_blank'
                         href="https://motoboy-city.entregasexpressas.com.br/?fbclid=PAZXh0bgNhZW0CMTEAAadTWQAi4hpxIiRqjntsTPw-5XijkCuUEo20SVWExEdMo_WgggpIzN8d7hsoqw_aem_rpR1qXsjdRZkGk8NGfeEuQ"
-                        className="px-2 py-1 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition mt-8"
+                        className="px-2 py-1 bg-blue-600 font-bold text-white rounded-md hover:bg-blue-700 transition mt-8"
                     >
                         Cadastro Empresa
                 </a>
