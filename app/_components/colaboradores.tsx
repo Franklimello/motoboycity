@@ -2,12 +2,16 @@ import Image from 'next/image'
 import franlim from "../../public/franklim.jpeg"
 import fernandinho from "../../public/fernando.jpeg"
 import edimar from "../../public/edimar.jpeg"
+import Rosemar from "../../public/rosemar.jpeg"
+import maicon from "../../public/maicon.jpeg"
 
 const colaboradores = [
     {nome:"Franklim", image:franlim},
     {nome:"Fernandinho", image:fernandinho},
     {nome:"Edimar", image:edimar},
-       
+    {nome:"Rosemar", image:Rosemar},
+    {nome:"Maicon", image:maicon},
+
 ]
 
 export function Colaboradores() {

@@ -62,14 +62,14 @@ export function Hero() {
              <div className="flex gap-4 ">
                 <a
                         target='_blank'
-                        href="https://motoboy-city.entregasexpressas.com.br/entregador/cadastro?fbclid=PAZXh0bgNhZW0CMTEAAadOIhwoWOJS1II2iQQeDrPkRiQ6aG0vjiCV8T0H4ui1ZI6FTEAkiBtDCbqzUQ_aem_hIzqPywhZdCkAS0D24pwLg"
+                        href="https://motoboycity.app.br/entregador/cadastro"
                         className="px-2 py-1 bg-green-600 font-bold  text-white rounded-md hover:bg-green-700 transition mt-8"
                     >
                         Cadastro Motoboy
                     </a>
                     <a
                         target='_blank'
-                        href="https://motoboy-city.entregasexpressas.com.br/?fbclid=PAZXh0bgNhZW0CMTEAAadTWQAi4hpxIiRqjntsTPw-5XijkCuUEo20SVWExEdMo_WgggpIzN8d7hsoqw_aem_rpR1qXsjdRZkGk8NGfeEuQ"
+                        href="https://motoboycity.app.br/"
                         className="px-2 py-1 bg-blue-600 font-bold text-white rounded-md hover:bg-blue-700 transition mt-8"
                     >
                         Cadastro Empresa

@@ -1,8 +1,16 @@
 import novafarma from '../../public/novafarma.png'
 import fruti from '../../public/fruti.jpeg'
 import duchef from '../../public/duchef.jpeg'
-import whiskas from '../../public/whiskas.png'
 import ideal from '../../public/ideal.jpeg'
+import dinha from '../../public/dinha.jpeg'
+import michelle from '../../public/michelle.jpeg'
+import gigante from '../../public/gigante.jpeg'
+import adaise from '../../public/adaise.jpeg'
+import toque from '../../public/toque.jpeg'
+import kacinho from '../../public/kacinho.jpeg'
+import dina from '../../public/dina.jpeg'
+import rango from '../../public/rango.jpeg'
+import alvim from '../../public/alvim.jpeg'
 import Image from 'next/image'
 
 
@@ -11,6 +19,15 @@ const brands = [
   { name: "Novafarma", logo: novafarma },
   { name: "DuChef", logo: duchef },
   { name: "Drogaria ideal", logo: ideal },
+  { name: "Dinha", logo: dinha },
+  { name: "Michelle", logo: michelle },
+  { name: "Gigante", logo: gigante },
+  { name: "Adaise", logo: adaise },
+  { name: "Toque de mestre", logo: toque },
+  { name: "Kacinho", logo: kacinho },
+  { name: "Dina", logo: dina },
+  { name: "Rango bom", logo: rango },
+  { name: "Alvim", logo: alvim }
   
 ]
 
