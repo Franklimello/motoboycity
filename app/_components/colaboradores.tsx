@@ -16,7 +16,7 @@ const colaboradores = [
 
 export function Colaboradores() {
     return (
-        <section className='py-8  font-bold flex bg-[#FDF6ec] ' >
+        <section className='py-8  font-bold flex bg-[#F2F0EB] ' >
             <div className='container mx-auto px-4 ' >
                 <div>
                     <h1 className='text-3xl font-semibold mb-8 text-center text-black' >
