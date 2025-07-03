@@ -1,7 +1,7 @@
 import Image from "next/image";
 import boy2 from '../../public/boy2.png'
 import boy3 from '../../public/boy3.jpeg'
-import ceo from "../../public/ceo.jpeg"
+import douglas from "../../public/douglas.jpeg"
 import { Check, MapPin } from "lucide-react";
 import { MessageCircle } from 'lucide-react';
 
@@ -66,10 +66,10 @@ export function About() {
             <div className="flex items-center gap-4 mt-6">
               <div>
                 <Image
-                  src={ceo}
+                  src={douglas}
                   alt="Foto do CEO"
                   width={150}
-                  height={50}
+                  height={100}
                   className="object-cover rounded-lg"
                 />
               </div>

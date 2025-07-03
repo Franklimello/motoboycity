@@ -2,11 +2,12 @@ import { MessageCircle } from 'lucide-react';
 import boy1 from "../../public/boy1.png"
 import playstore from "../../public/Google-Play-Logo-2016.jpg"
 import aplle from "../../public/apple.png"
-
+import { useEffect, useState } from 'react';
 import Image from 'next/image'
 
 
 export function Hero() {
+  
   return (
     <section className="bg-zinc-800  text-white relative overflow-hidden">
 
@@ -17,10 +18,10 @@ export function Hero() {
           fill
           sizes='100vw'
           priority
-          className='object-cover opacity-60 lg:hidden'
-        />
-        <div className='absolute inset-0 bg-black opacity-40 md:hidden'></div>
-      </div>
+          className='object-cover opacity-60 lg:hidden '
+           />
+        <div className='absolute inset-0 bg-black opacity-40 md:hidden' ></div>
+      </div >
 
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
 
@@ -63,14 +64,14 @@ export function Hero() {
                 <a
                         target='_blank'
                         href="https://motoboycity.app.br/entregador/cadastro"
-                        className="px-2 py-1 bg-green-600 font-bold  text-white rounded-md hover:bg-green-700 transition mt-8"
+                        className=" px-2 py-1 bg-green-600 font-bold  text-white rounded-md hover:bg-green-700 transition mt-8 align-center justify-center flex items-center"
                     >
                         Cadastro Motoboy
                     </a>
                     <a
                         target='_blank'
                         href="https://motoboycity.app.br/"
-                        className="px-2 py-1 bg-blue-600 font-bold text-white rounded-md hover:bg-blue-700 transition mt-8"
+                        className="px-2 py-1 bg-blue-600 font-bold text-white rounded-md hover:bg-blue-700 transition mt-8 align-center justify-center flex items-center"
                     >
                         Cadastro Empresa
                 </a>

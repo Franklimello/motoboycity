@@ -64,7 +64,7 @@ export function Footer() {
 
         <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'>
           <div>
-            <h3 className='text-2xl font-semibold mb-2'>Motoboy city</h3>
+            <h3 className='text-2xl font-semibold mb-2'>Motoboy<span className='text-yellow-500'>City</span></h3>
             <p className='mb-4'>Entregas rapidas e de qualidade.</p>
             <a
             target='_blank'
