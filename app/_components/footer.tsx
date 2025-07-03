@@ -11,6 +11,7 @@ import kacinho from '../../public/kacinho.jpeg'
 import dina from '../../public/dina.jpeg'
 import rango from '../../public/rango.jpeg'
 import alvim from '../../public/alvim.jpeg'
+import josue from "../../public/josue.jpeg"
 import Image from 'next/image'
 
 
@@ -27,8 +28,9 @@ const brands = [
   { name: "Kacinho", logo: kacinho },
   { name: "Dina", logo: dina },
   { name: "Rango bom", logo: rango },
-  { name: "Alvim", logo: alvim }
-  
+  { name: "Alvim", logo: alvim },
+  { name: "Josué", logo: josue },
+
 ]
 
 export function Footer() {
@@ -37,7 +39,7 @@ export function Footer() {
       <div className='container mx-auto px-4'>
 
         <div className='border-b border-white/20 pb-8'>
-          <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
+          <h4 className='text-3xl font-semibold mb-8 text-center'>Empresas parceiras do <span className='font-bold'>Motoboy</span><span className='text-yellow-500 font-bold'>city</span></h4>
 
           <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
             {brands.map((item, index) => (
