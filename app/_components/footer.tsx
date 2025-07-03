@@ -79,7 +79,7 @@ export function Footer() {
 
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-            <p>Email: teste@teste.com</p>
+            <p>Email:  maicondouglas93@gmail.com</p>
             <p>Telefone: (33) 98680141</p>
             <p>Rua herculano ker, lajinha | MG</p>
           </div>
