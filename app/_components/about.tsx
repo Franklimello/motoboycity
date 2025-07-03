@@ -1,6 +1,7 @@
 import Image from "next/image";
 import boy2 from '../../public/boy2.png'
 import boy3 from '../../public/boy3.jpeg'
+import ceo from "../../public/ceo.jpeg"
 import { Check, MapPin } from "lucide-react";
 import { MessageCircle } from 'lucide-react';
 
@@ -62,6 +63,21 @@ export function About() {
                 Qualidade é nossa prioridade.
               </li>
             </ul>
+            <div className="flex items-center gap-4 mt-6">
+              <div>
+                <Image
+                  src={ceo}
+                  alt="Foto do CEO"
+                  width={150}
+                  height={50}
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-500 font-semibold">Maicon Douglas</h3>
+                <p className="text-gray-600">CEO e Fundador</p>
+              </div>
+            </div>
 
             <div className="flex gap-2">
               <a
