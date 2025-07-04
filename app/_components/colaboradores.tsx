@@ -4,6 +4,7 @@ import fernandinho from "../../public/fernando.jpeg"
 import edimar from "../../public/edimar.jpeg"
 import Rosemar from "../../public/rosemar.jpeg"
 import pedro from "../../public/pedro.jpeg"
+import marcone from "../../public/odim.jpeg"
 
 
 const colaboradores = [
@@ -11,7 +12,8 @@ const colaboradores = [
     {nome:"Fernandinho", image:fernandinho},
     {nome:"Edimar", image:edimar},
     {nome:"Rosemar", image:Rosemar},
-    {nome:"Pedro", image:pedro}
+    {nome:"Pedro", image:pedro},
+    {nome:"Marcone", image:marcone}
 ]
 
 export function Colaboradores() {
